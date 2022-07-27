@@ -4,7 +4,12 @@
 
 /* ===Common Css Style=== */
 :root{
-
+    --white: #FFFF;
+    --black: #000000;
+    --nav-color:#777777;
+    --nav-background-color: #289BDE;
+    --buttons-color: ##289BDE;
+    
 }
 *{
     margin: 0;
@@ -22,3 +27,26 @@
 
 
 /* ===Navigation Design Start=== */
+.nav-item{
+
+}
+.nav-link{
+    color: var(--nav-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.nav-link:hover{
+    background-color: var(--nav-background-color);
+    color: white;
+    border-radius: 5px;
+}
+#active{
+    color: var(--nav-background-color);
+    border-radius: 5px;
+}
+.profile-area a{
+    text-decoration: none;
+    color: var(--nav-color);
+}
