@@ -11,7 +11,8 @@
     --buttons-color: #289BDE;
     --main-color:rgb(30 182 152);
     --background-gradient: linear-gradient(to right,rgb(30 182 152),#289BDE );
-    
+    --course-title: #4A4A4A;
+    --para-color:  #777777;
 }
 *{
     margin: 0;
@@ -69,10 +70,46 @@
 .section-title h1{
     color:var(--main-color) ;
 } 
-.carousel-caption h1{
+.gradient-text{
     background-image:var(--background-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
 
 }  
+
+/* ===Course Area Start=== */
+.course-details h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: var(--course-title);
+}
+.course-details p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--para-color);
+}
+.course-details h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--main-color);
+}
+
+/* ====Explore Area Start=== */
+#explore{
+    text-align: justify;
+}
+.rating h3{
+    font-size: 18px;
+    color: var(--main-color);
+}
+.register:hover{
+    outline: none;
+    background-color: var(--main-color);
+}
